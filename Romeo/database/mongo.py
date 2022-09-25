@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 import os
-from configs import Config
+from config import Config
 
 MONGO_NAME = "SessionStringBot"
 MONGO_URI = Config.MONGO_URI
