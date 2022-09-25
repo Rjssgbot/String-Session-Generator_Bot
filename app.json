@@ -1,0 +1,41 @@
+{
+  "name": "Romeo",
+  "description": "Romeo",
+  "logo": "https://telegra.ph/file/b4c1b5ea6b35b09142a02.jpg",
+  "keywords": [
+    "Telegram",
+    "Pyrogram",
+    "InfoBot",
+    "ID"
+  ],
+  "repository": "https://github.com/Romeo-RJ-143/String-Session-Generator_Bot",
+  "env": {
+    "API_ID": {
+      "description": "Get This From my.telegram.org"
+    },
+    "API_HASH": {
+      "description": "Get This From my.telegram.org"
+    },
+    "BOT_TOKEN": {
+      "description": "Get This From @BotFather"
+    },
+    "MONGO_URI": {
+      "description": "Get This From mongodb.com"
+    },
+    "OWNER_ID": {
+      "description": "UserID of Owner And Not Username"
+    },
+    "UPDATES_CHANNEL": {
+      "description": "Username Of Channel With @"
+    }
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
